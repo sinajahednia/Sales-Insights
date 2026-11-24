@@ -13,7 +13,7 @@ This project analyzes an online retail dataset to identify sales performance, cu
 - Identification of cancelled transactions
 - Top-selling countries and products
 - Monthly sales performance analysis
-- Automated Excel report generation
+- Excel sales report included in the reports folder
 
 ## Technologies Used
 
@@ -33,7 +33,6 @@ Sales-Analysis/
 │
 ├── reports/
 │   ├── sales_report.xlsx
-│   └── sales_report_professional.xlsx
 │
 ├── src/
 │   └── main.py
