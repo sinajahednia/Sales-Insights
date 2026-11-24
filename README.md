@@ -29,7 +29,7 @@ This project analyzes an online retail dataset to identify sales performance, cu
 Sales-Analysis/
 │
 ├── data/
-│   └── sales.csv
+│   └── online_retail.csv
 │
 ├── reports/
 │   ├── sales_report.xlsx
@@ -49,24 +49,29 @@ Sales-Analysis/
 - Average Order Value: £513.54
 - Top Sales Country: United Kingdom
 
+
 ## How to Run
 
 1. Clone this repository.
+
 2. Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Make sure the original dataset is available locally at the path expected by the Python script.
+3. Download the Online Retail dataset and place the CSV file in the `data/` folder with the following name:
+
+`online_retail.csv`
+
 4. Run the analysis from the project root:
 
 ```bash
 python src/main.py
 ```
 
-5. The Excel report will be generated in the `reports/` directory.
+5. The analysis results will be displayed in the terminal.
 
-## Project Status
+## Excel Report
 
-Completed — initial version of the Sales Analysis project.
+A prepared Excel report is available in the `reports/` folder as `sales_report.xlsx`.
